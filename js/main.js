@@ -28,7 +28,7 @@ const products = [
         name: "Samsung",
         price: 5000,
         imgUrl: "img/ap.png"
-        // adfs
+
     }
 ]
 
@@ -58,7 +58,7 @@ const deleteBasketBtns = document.querySelectorAll('.product_delete_basket-btn')
 addBasketBtns.forEach(btn => btn.addEventListener('click', addToBasket))
 deleteBasketBtns.forEach(btn => btn.addEventListener('click', deletefromBasket))
 
-/// добавление рекламы
+/// добавить рекламу
 
 const handleAd = {
     closeBtn: document.getElementById('closeBtn'),
@@ -85,7 +85,7 @@ const handleAd = {
     }
 }
 
-// добавление товара в корзину
+// добавить товар в корзину
 
 let cart = {};
 
@@ -110,7 +110,7 @@ function setTotalSumm () {
     showTotalSumm()
 
 }
-// Удалить товара из корзины
+// Удалить товар из корзины
 
 function deletefromBasket(e) {
     e.preventDefault()
